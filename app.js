@@ -14,7 +14,7 @@ function classifyNumber(a) {
         console.log (`negative odd`)
     } else if ((a > 0) && (a%2 == 0)) {
         console.log (`positive even`)
-    } else if ((a < 0) && (a%2 !== 0)) {
+    } else if ((a < 0) && (a%2 == 0)) {
         console.log (`negative even`)
     }
 }
